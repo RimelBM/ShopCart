@@ -6,7 +6,7 @@
     <title>Shopping cart</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 <body onload="Welcome()">
@@ -37,8 +37,16 @@
 
         <!-- Product #1 -->
         <div class="Product">
+
           <div class="buttons">
+            <button class="btn-danger" type="button" name="button" id="delete">
+              X
+            </button>
             
+            
+              <i class="fas fa-heart" id="heart" ></i>
+            
+
           </div>
        
           <div class="image">
@@ -52,113 +60,98 @@
           </div>
        
           <div class="quantity">
-            <button class="minus-btn" type="button" name="button">
+            <button class="minus-btn" type="button" name="button" id="button">
                 -
               </button>
-            <input id="valeur" type="text" name="name" value="10">
+            <span id="number">1</span>
             
             <button class="plus-btn" type="button" name="button">
                 +
               </button>
+              
           </div>
        
-          <div class="total-price">$549</div>
+          <div class="total-price">50</div>
         </div>
        
-        <!-- Product #2 -->
-        <div class="Product">
-            <div class="buttons">
-              
-            </div>
-         
-            <div class="image">
-              <img src="./Images/image1.jpg" alt="image Superdry" />
-            </div>
-         
-            <div class="description">
-              <span>Superdry Core Down Hooded</span>
-              <span>Bball High</span>
-              <span>White</span>
-            </div>
-         
-            <div class="quantity">
-              <button class="minus-btn" type="button" name="button">
-                  -
-                </button>
-              <input type="text" name="name" value="10">
-              
-              <button class="plus-btn" type="button" name="button">
-                  +
-                </button>
-            </div>
-         
-            <div class="total-price">$549</div>
+
+
+         <!-- Product #2 -->
+         <div class="Product">
+          <div class="buttons">
+            <button class="btn-danger" type="button" name="button" id="delete">
+              X
+            </button>
+            <i class="fas fa-heart" id="heart" ></i>
           </div>
        
+          <div class="image">
+            <img src="./Images/image3.jpg" alt="image Superdry" />
+          </div>
+       
+          <div class="description">
+            <span>Superdry Core Down Hooded</span>
+            <span>Bball High</span>
+            <span>White</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="minus-btn" type="button" name="button" >
+                -
+              </button>
+            <span id="number1">1</span>
+            
+            <button class="plus-btn" type="button" name="button" >
+                +
+              </button>
+
+          </div>
+       
+          <div class="total-price">50</div>
+        </div>
+
+
         <!-- Product #3 -->
-        <div class="Product">
-            <div class="buttons">
-              
-            </div>
-         
-            <div class="image">
-              <img src="./Images/image2.jpg" alt="image Superdry" />
-            </div>
-         
-            <div class="description">
-              <span>Superdry Core Down Hooded</span>
-              <span>Bball High</span>
-              <span>White</span>
-            </div>
-         
-            <div class="quantity">
-              <button class="minus-btn" type="button" name="button">
-                  -
-                </button>
-              <input type="text" name="name" value="10">
-              
-              <button class="plus-btn" type="button" name="button">
-                  +
-                </button>
-            </div>
-         
-            <div class="total-price">$549</div>
+         <div class="Product">
+          <div class="buttons">
+            <button class="btn-danger" type="button" name="button" id="delete">
+              X
+            </button>
+            
+            <i class="fas fa-heart"  id="heart"></i>
           </div>
-          <!-- Product #4-->
-          <div class="Product">
-            <div class="buttons">
-              
-            </div>
-         
-            <div class="image">
-              <img src="./Images/image3.jpg" alt="image Superdry" />
-            </div>
-         
-            <div class="description">
-              <span>Superdry Core Down Hooded</span>
-              <span>Bball High</span>
-              <span>White</span>
-            </div>
-         
-            <div class="quantity">
-              <button class="minus-btn" type="button" name="button">
-                  -
-                </button>
-              <input type="text" name="name" value="10">
-              
-              <button class="plus-btn" type="button" name="button">
-                  +
-                </button>
-            </div>
-         
-            <div class="total-price">$549</div>
+       
+          <div class="image">
+            <img src="./Images/image2.jpg" alt="image Superdry" />
           </div>
-          <div class="Total">
-            Total : <span>1000$</span>
+       
+          <div class="description">
+            <span>Superdry Core Down Hooded</span>
+            <span>Bball High</span>
+            <span>White</span>
           </div>
-      </div>
-      <!--JavaScript-->
+       
+          <div class="quantity">
+            <button class="minus-btn" type="button" name="button" id="button">
+                -
+              </button>
+            <span id="number">1</span>
+            
+            <button class="plus-btn" type="button" name="button">
+                +
+              </button>
+             
+          </div>
+          
+          <div class="total-price">50 
+          </div>
+        
+       
+       </div>
+       <div class="Total">
+        <span>Total : </span><span id="Total">150</span><span>$</span>
+       </div>
+       </div>
       <script src="store.js"></script>
 </body>
 </html>
-
